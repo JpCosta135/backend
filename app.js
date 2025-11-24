@@ -106,10 +106,11 @@ app.get('/', (req, res) => {
     res.send("Hello I am working my friend Supabase <3");
 });
 
-app.get('*', (req, res) => {
-    res.send("Hello again I am working my friend to the moon and behind <3");
-});
+//app.get('*', (req, res) => {
+    //res.send("Hello again I am working my friend to the moon and behind <3");
+//}); 
 
 app.listen(3000, () => {
     console.log(`> Ready on http://localhost:3000`);
+
 });
